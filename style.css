@@ -67,6 +67,12 @@ h3 {
     color: #727272;
 }
 
+h4 {
+    font-size: 15px;
+    color: #727272;
+    font-weight: 100;
+}
+
 .summary-content {
     width: 768px;
     font-size: 20px;
@@ -157,4 +163,25 @@ progress {
     font-size: 17px;
     color: #939393;
     margin: 0 0;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 100px 0;
+}
+
+.education .years {
+    font-size: 13px;
+    color: #939393;
+}
+
+.education-list {
+    width: 768px;
+}
+
+.education-list-content {
+    padding: 20px 0;
+    border-bottom: 1px solid #939393;
 }
