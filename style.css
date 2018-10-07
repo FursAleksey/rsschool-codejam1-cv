@@ -11,12 +11,6 @@ body {
     align-items: center;
 }
 
-.header-img img {
-    height: auto;
-    width: 150%;
-    border-radius: 100%;
-}
-
 .header-name-first{
     font-size: 60px;
     font-weight: 100;
