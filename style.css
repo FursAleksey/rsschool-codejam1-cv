@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 10px;
-    margin-top: 30px;
+    margin: 30px 0;
 
     border-top: 1px solid #939393;
 }
@@ -77,12 +77,14 @@ h3 {
 .skills {
     display: flex;
     justify-content: space-between;
+    margin: 100px 0;
 }
 
 .skills-list {
     width: 768px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .skill {
@@ -116,3 +118,43 @@ progress {
     background-color: #F8BB10;
 }
 
+.experience {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-list {
+    width: 768px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.experience-list-box {
+    width: 384px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.experience-list-box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0 10px;
+}
+
+.experience-list-box-number {
+    font-size: 20px;
+    color: #F8BB10;
+    padding-top: 18px;
+}
+
+.experience-list-box-content p {
+    width: 300px;
+    word-wrap: break-word;
+    font-size: 17px;
+    color: #939393;
+    margin: 0 0;
+}
