@@ -73,6 +73,15 @@ h4 {
     font-weight: 100;
 }
 
+h5 {
+    font-size: 13px;
+    color: #727272;
+    font-weight: 100;
+    margin: 0 0;
+    word-wrap: break-word;
+    width: 250px;
+}
+
 .summary-content {
     width: 768px;
     font-size: 20px;
@@ -99,7 +108,7 @@ h4 {
     align-items: start;
 }
 
-.skill .percent {
+.percent {
     font-size: 20px;
     color: #F8BB10;
     padding-right: 10px;
@@ -184,4 +193,16 @@ progress {
 .education-list-content {
     padding: 20px 0;
     border-bottom: 1px solid #939393;
+}
+
+.english {
+    display: flex;
+    justify-content: space-between;
+}
+
+.english-progressbars {
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
